@@ -1,0 +1,86 @@
+.top {
+  background: url('/img/fractal/fractal_splash.jpg') center top no-repeat;
+  background-size: cover;
+}
+.divider,
+#content section.divider {
+  color: #000;
+}
+body {
+  background-image: url("/img/fractal/fractal_divider_3.jpg");
+}
+#screenshots li:nth-child(2),
+#screenshots li:nth-child(3) {
+  margin-top: 30px;
+}
+.testimonials {
+  background: transparent url("/img/fractal/fractal_divider_3.jpg") top left no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #000;
+  padding: 0px !important;
+}
+.testimonial blockquote {
+  padding: 45px 0px;
+}
+.buy .divider {
+  background-image: url("/img/fractal/fractal_divider_2.jpg") !important;
+  background-attachment: scroll !important;
+  display: block;
+}
+.special {
+  background: url("/img/fractal/hexellence.png") top left repeat;
+  color: #000;
+}
+.alignright {
+  float: right;
+}
+#general p {
+  font-size: 36px;
+  font-family: "BrandonText-Light";
+}
+.actions li:nth-child(7) a:hover {
+  background-color: #f8bb7f;
+}
+.actions li:nth-child(6) a:hover {
+  background-color: #f9c07c;
+}
+.actions li:nth-child(5) a:hover {
+  background-color: #fac579;
+}
+.actions li:nth-child(4) a:hover {
+  background-color: #fbca76;
+}
+.actions li:nth-child(3) a:hover {
+  background-color: #fbce73;
+}
+.actions li:nth-child(2) a:hover {
+  background-color: #fcd370;
+}
+.actions li:nth-child(1) a:hover {
+  background-color: #fdd86d;
+}
+#awards li:nth-child(8) a:hover {
+  background-color: #f8bb7f;
+}
+#awards li:nth-child(7) a:hover {
+  background-color: #f9bf7c;
+}
+#awards li:nth-child(6) a:hover {
+  background-color: #fac47a;
+}
+#awards li:nth-child(5) a:hover {
+  background-color: #fac877;
+}
+#awards li:nth-child(4) a:hover {
+  background-color: #fbcc75;
+}
+#awards li:nth-child(3) a:hover {
+  background-color: #fcd072;
+}
+#awards li:nth-child(2) a:hover {
+  background-color: #fdd56f;
+}
+#awards li:nth-child(1) a:hover {
+  background-color: #fdd96d;
+}

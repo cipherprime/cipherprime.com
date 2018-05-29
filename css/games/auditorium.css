@@ -1,0 +1,159 @@
+#gamearea {
+  width: 830px;
+  height: 467px;
+  margin: 0px auto;
+  background: #FFF;
+  padding: 15px;
+  box-sizing: content-box;
+  position: absolute;
+  overflow: hidden;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  margin-left: -430px;
+  margin-top: -248px;
+  transition: top .25s, margin-top .25s, bottom .25s;
+}
+#gamearea object {
+  box-sizing: content-box;
+  background-color: #181818;
+}
+#gamearea .background {
+  width: 830px;
+  height: 467px;
+  position: absolute;
+  background-color: #FFF;
+}
+.badge {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -490px;
+  margin-top: -290px;
+  z-index: 101;
+}
+.top {
+  background: #212121 url("/img/auditorium/ui/bkg_main.png") top left repeat !important;
+  min-height: 587px;
+  transition: height .25s;
+}
+.snapButton #gamearea {
+  top: auto;
+  margin-top: 0px;
+  bottom: 30px;
+}
+.guide #flow {
+  background: url("/img/auditorium/guide/flow_bg_lvl.png") center center no-repeat;
+  background-size: cover;
+  position: relative;
+  color: #FFF;
+}
+.guide p img {
+  float: left;
+  margin: 0px 10px 5px 0px;
+}
+.guide #general p {
+  font-size: 2em;
+  font-family: "BrandonText-Light";
+}
+.guide #goals {
+  background: #212121 url("/img/auditorium/ui/bkg_main.png") top left repeat;
+  color: #FFF;
+}
+.guide h3 {
+  text-transform: uppercase;
+}
+.warning {
+  font-size: 12px;
+  font-family: "BrandonText-RegularItalic";
+  color: #700;
+  margin-top: 40px;
+}
+.warning a {
+  color: #700;
+}
+.warning a:hover {
+  border-color: #700;
+}
+h3.subtext {
+  margin-top: 10px;
+  font-size: 1em;
+  letter-spacing: normal;
+  text-transform: none;
+  font-family: "BrandonText-Regular";
+}
+body {
+  background-image: url("/img/auditorium/auditorium_flyer.jpg");
+}
+.unavailable {
+  text-decoration: line-through !important;
+}
+.sidebar ul,
+.sidebar p {
+  margin: 0;
+}
+.sidebar h3 {
+  margin-bottom: 1em;
+}
+.actions li a:hover {
+  color: #FFF;
+}
+.actions li:nth-child(4) a:hover {
+  background-color: #5ea04f;
+}
+.actions li:nth-child(3) a:hover {
+  background-color: #5a975e;
+}
+.actions li:nth-child(2) a:hover {
+  background-color: #558d6e;
+}
+.actions li:nth-child(1) a:hover {
+  background-color: #51847d;
+}
+#awards li:nth-child(14) a:hover {
+  background-color: #5ea04f;
+}
+#awards li:nth-child(13) a:hover {
+  background-color: #5d9d53;
+}
+#awards li:nth-child(12) a:hover {
+  background-color: #5b9b58;
+}
+#awards li:nth-child(11) a:hover {
+  background-color: #5a985c;
+}
+#awards li:nth-child(10) a:hover {
+  background-color: #599560;
+}
+#awards li:nth-child(9) a:hover {
+  background-color: #589265;
+}
+#awards li:nth-child(8) a:hover {
+  background-color: #569069;
+}
+#awards li:nth-child(7) a:hover {
+  background-color: #558d6e;
+}
+#awards li:nth-child(6) a:hover {
+  background-color: #548a72;
+}
+#awards li:nth-child(5) a:hover {
+  background-color: #528876;
+}
+#awards li:nth-child(4) a:hover {
+  background-color: #51857b;
+}
+#awards li:nth-child(3) a:hover {
+  background-color: #50827f;
+}
+#awards li:nth-child(2) a:hover {
+  background-color: #4f7f83;
+}
+#awards li:nth-child(1) a:hover {
+  background-color: #4d7d88;
+}
+@media (max-width: 768px) {
+  .top {
+    min-height: intrinsic;
+  }
+}

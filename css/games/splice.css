@@ -1,0 +1,55 @@
+.actions li:nth-child(5) a:hover {
+  background-color: #425d13;
+}
+.actions li:nth-child(4) a:hover {
+  background-color: #587514;
+}
+.actions li:nth-child(3) a:hover {
+  background-color: #6e8d14;
+}
+.actions li:nth-child(2) a:hover {
+  background-color: #84a515;
+}
+.actions li:nth-child(1) a:hover {
+  background-color: #9abd15;
+}
+#awards li:nth-child(8) a:hover {
+  background-color: #425d13;
+}
+#awards li:nth-child(7) a:hover {
+  background-color: #506c13;
+}
+#awards li:nth-child(6) a:hover {
+  background-color: #5e7b14;
+}
+#awards li:nth-child(5) a:hover {
+  background-color: #6b8a14;
+}
+#awards li:nth-child(4) a:hover {
+  background-color: #799915;
+}
+#awards li:nth-child(3) a:hover {
+  background-color: #87a815;
+}
+#awards li:nth-child(2) a:hover {
+  background-color: #95b715;
+}
+#awards li:nth-child(1) a:hover {
+  background-color: #a2c616;
+}
+body {
+  background-image: url("/img/splice/splice_splash_bg.jpg");
+}
+.top {
+  background: url('/img/splice/splice_ps4_ps3_site-1.jpg') top center no-repeat;
+  background-size: cover;
+}
+.maintitle {
+  margin: 45px auto;
+}
+h2.promo {
+  margin-bottom: 0px;
+}
+h2 {
+  margin-bottom: 15px;
+}

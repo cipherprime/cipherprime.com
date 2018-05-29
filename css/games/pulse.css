@@ -1,0 +1,79 @@
+.top {
+  background: url('/img/pulse/pulse_splash.jpg') center center no-repeat;
+  background-size: cover;
+}
+ul.screenshots {
+  margin-top: 22px;
+}
+body {
+  background-image: url("/img/pulse/pulse_gradient.jpg");
+}
+p.divider {
+  margin-top: 0px;
+}
+.actions li:nth-child(6) a:hover {
+  background-color: #71d8d1;
+}
+.actions li:nth-child(5) a:hover {
+  background-color: #80c3cf;
+}
+.actions li:nth-child(4) a:hover {
+  background-color: #8eafcd;
+}
+.actions li:nth-child(3) a:hover {
+  background-color: #9d9acb;
+}
+.actions li:nth-child(2) a:hover {
+  background-color: #ac85c8;
+}
+.actions li:nth-child(1) a:hover {
+  background-color: #ba71c6;
+}
+#awards li:nth-child(16) a:hover {
+  background-color: #71d8d1;
+}
+#awards li:nth-child(15) a:hover {
+  background-color: #77d0d0;
+}
+#awards li:nth-child(14) a:hover {
+  background-color: #7cc9cf;
+}
+#awards li:nth-child(13) a:hover {
+  background-color: #82c1cf;
+}
+#awards li:nth-child(12) a:hover {
+  background-color: #87b9ce;
+}
+#awards li:nth-child(11) a:hover {
+  background-color: #8db1cd;
+}
+#awards li:nth-child(10) a:hover {
+  background-color: #92aacc;
+}
+#awards li:nth-child(9) a:hover {
+  background-color: #98a2cb;
+}
+#awards li:nth-child(8) a:hover {
+  background-color: #9d9acb;
+}
+#awards li:nth-child(7) a:hover {
+  background-color: #a392ca;
+}
+#awards li:nth-child(6) a:hover {
+  background-color: #a88bc9;
+}
+#awards li:nth-child(5) a:hover {
+  background-color: #ae83c8;
+}
+#awards li:nth-child(4) a:hover {
+  background-color: #b37bc7;
+}
+#awards li:nth-child(3) a:hover {
+  background-color: #b973c6;
+}
+#awards li:nth-child(2) a:hover {
+  background-color: #be6cc6;
+}
+#awards li:nth-child(1) a:hover {
+  background-color: #c464c5;
+}

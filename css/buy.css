@@ -1,0 +1,79 @@
+.buy .divider {
+  overflow: hidden;
+}
+section#available {
+  background: #333 url("/img/ui/available_gradient.png") left bottom repeat-x;
+  color: #FFF;
+}
+section#available ul {
+  list-style: none;
+  padding: 0px;
+  margin-top: 50px;
+  display: block;
+  overflow: auto;
+}
+section#available .current a {
+  opacity: .2;
+}
+section#available li {
+  height: 90px;
+}
+section#available li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #FFF;
+  border: none !important;
+  background: center center no-repeat;
+  background-size: cover;
+  font-family: "BrandonText-Light";
+  font-size: .8em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  transition: letter-spacing .25s;
+  box-sizing: border-box;
+}
+section#available li a span {
+  background: rgba(0,0,0,0.5);
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 30px 0px;
+  transition: background .25s, color .25s;
+}
+section#available li a i {
+  font-size: .8em;
+}
+section#available li a:hover {
+  color: #000;
+  letter-spacing: .25em;
+}
+section#available li a:hover span {
+  background: rgba(255,255,255,0.8);
+}
+section#available li.auditorium a {
+  background-image: url('/img/auditorium/guide/flow_bg.png');
+}
+section#available li.fractal a {
+  background-image: url('/img/fractal/fractal_splash.jpg');
+}
+section#available li.pulse a {
+  background-image: url('/img/pulse/pulse_splash.jpg');
+}
+section#available li.splice a {
+  background-image: url('/img/splice/splice_splash.jpg');
+}
+section#available li.shimsham a {
+  background-image: url('/img/shimsham/shimsham_splash.jpg');
+}
+section#available li.intake a {
+  background-image: url('/img/intake/intake_splash.jpg');
+}
+@media (max-width: 992px) {
+  #available li:nth-child(1),
+  #available li:nth-child(2),
+  #available li:nth-child(3) {
+    margin-bottom: 30px;
+  }
+}

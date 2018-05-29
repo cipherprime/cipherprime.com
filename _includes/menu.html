@@ -1,0 +1,47 @@
+
+<div class="content">
+
+	<ul>
+		<!-- <li <?=($this->here == "/" ? "class='current'" : "")?> ><a href="/" >Home</a> <a href="#" class="toggle">&nbsp;</a></li> -->
+	</ul>
+
+
+    {% for menu in site.data.menu %}
+    <h3>{{ menu.name }}</h3>
+    <ul>
+        {% for item in menu.items %}
+        <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
+
+
+	<div class="minor">
+
+	<h3>Community</h3>
+	<ul>
+		<li><a href="http://phillydevnight.com">Philly Dev Night</a> <span class="offsite"></span></li>
+		<li><a href="http://phillygameforge.com">Philly Game Forge</a> <span class="offsite"></span></li>
+	</ul>
+
+	<h3>Company</h3>
+	<ul>
+		<li><a href="//blog.cipherprime.com">Blog</a> <span class="offsite"></span></li>
+		<li><a href="//music.cipherprime.com">Music</a> <span class="offsite"></span></li>
+		<!-- <?=$this->Theme->menuItem("/support", "Support")?>
+		<?=$this->Theme->menuItem("/about", "About")?>
+		<?=$this->Theme->menuItem("/mailinglist", "Mailing List")?> -->
+	</ul>
+
+	<ul class="social">
+		<li><a class="twitter" href="//twitter.com/cipherprime"><i class="fa fa-twitter"></i></a></li>
+		<li><a class="youtube" href="//music.cipherprime.com/"><i class="fa fa-music"></i></a></li>
+		<li><a class="youtube" href="//youtube.com/user/cipherprimestudios"><i class="fa fa-youtube-play"></i></a></li>
+		<li><a class="youtube" href="//facebook.com/cipherprime"><i class="fa fa-facebook-square"></i></a></li>
+	</ul>
+
+
+	<a href="//n3rd.st/" class="n3rdst"></a>
+
+	</div>
+</div>

@@ -1,0 +1,33 @@
+---
+- name: Games
+  items:
+     - name: Auditorium
+       url: /games/auditorium
+     - name: Fractal
+       url: /games/fractal
+     - name: Pulse
+       url: /games/pulse
+     - name: Splice
+       url: /games/splice
+     - name: Shimsham
+       url: /games/shimsham
+     - name: Intake
+       url: /games/intake
+     - name: Duet
+       url: /games/duet
+     - name: Tailwind<span class="tag new">new</span>
+       url: /games/tailwind
+     - name: Jawns<span class="tag new">new</span>
+       url: http://playjawns.com
+
+- name: Minis
+  items:
+     - name: "#Headlight<span class='tag new'>new</span>"
+       url: http://cipherprime.itch.io/headlight
+     - name: Monster Want Burger!
+       url: http://monsterwantburger.com
+
+- name: Exhibitions
+  items:
+     - name: We've Traveled So Far...<span class="tag new">new</span>
+       url: http://wevetraveledsofar.com

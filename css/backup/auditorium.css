@@ -1,0 +1,155 @@
+#gamearea
+{
+	width: 830px; 
+	height:467px; 
+	margin: 0px auto;
+	background: #FFF;
+	padding: 15px;
+	box-sizing: content-box;
+}
+
+#gamearea object
+{
+	box-sizing: content-box;
+}
+
+.top
+{
+	background: #212121 url("/img/auditorium/ui/bkg_main.png") top left repeat;
+	padding: 45px 0px;
+	height: 587px;
+}
+
+.docked .top {
+	top: -461px;
+}
+
+.guide #flow
+{
+	background: url("/img/auditorium/guide/flow_bg_lvl.png") center center no-repeat;
+	background-size: cover;
+	color: #FFF;
+}
+
+.guide p img
+{
+	float: left;
+	margin: 0px 10px 5px 0px;
+}
+
+.guide #general p
+{
+	font-size: 36px;
+}
+
+.guide #goals
+{
+	background: #212121 url("/img/auditorium/ui/bkg_main.png") top left repeat;
+	color:#FFF;
+}
+
+.guide h3
+{
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+.warning
+{
+	font-size: 12px;
+	font-family: "BrandonText-RegularItalic";
+	color: #700;
+	margin-top: 40px;
+}
+.warning a
+{
+	color: #700;
+}
+
+
+
+
+h3.subtext
+{
+	margin-top:10px;
+}
+
+
+.sidebar p a:hover, .sidebar li a:hover
+{
+	color: #FC3293;
+}
+
+
+.actions li a:hover
+{
+	color: #FFF;
+}
+
+.actions li:nth-child(1) a:hover, #awards .row:nth-child(1) li a:hover
+{
+	background-color: #FC3293;
+}
+
+.actions li:nth-child(2) a:hover
+{
+	background-color: #D832BA;
+}
+
+.actions li:nth-child(3) a:hover, #awards .row:nth-child(2) li a:hover
+{
+	background-color: #B232E1;
+}
+
+.actions li:nth-child(4) a:hover
+{
+	background-color: #6D58FD;
+}
+
+.actions li:nth-child(5) a:hover, #awards .row:nth-child(3) li a:hover
+{
+	background-color: #398BFA;
+}
+
+.actions li:nth-child(6) a:hover, #awards .row:nth-child(4) li a:hover
+{
+	background-color: #00C5F7;
+}
+
+
+.divider
+{
+	background-image: url("/img/auditorium/auditorium_flyer.jpg");
+}
+
+.unavailable
+{
+	text-decoration:line-through !important;
+}
+
+
+
+
+
+
+#features ul li
+{
+	margin-bottom: 8px;
+}
+
+
+.sidebar ul, .sidebar p
+{
+	margin: 0;
+}
+
+.sidebar h3
+{
+	margin-bottom: 1em;
+}

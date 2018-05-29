@@ -1,0 +1,10 @@
+.top {
+  background: url('/img/duet/duet_header.jpg') center center no-repeat;
+  background-size: cover;
+}
+.maintitle {
+  height: 60px;
+}
+.divider {
+  background-image: url("/img/duet/duet_divider.jpg");
+}

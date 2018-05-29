@@ -1,0 +1,8 @@
+.top {
+  background: #212121 url("/img/support/philly_skyline.jpg") center center no-repeat;
+  background-size: cover;
+  height: 530px;
+}
+.docked .bottom {
+  margin-top: 530px;
+}

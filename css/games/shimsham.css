@@ -1,0 +1,8 @@
+body {
+  background-image: url("/img/shimsham/shimsham_divider_plain.jpg");
+  background-position: center top;
+}
+.top {
+  background: url('/img/shimsham/shimsham_splash.jpg') center center no-repeat;
+  background-size: cover;
+}

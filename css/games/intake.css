@@ -1,0 +1,49 @@
+body {
+  background-image: url("/img/intake/intake_divider.jpg");
+}
+.top {
+  background: url('/img/intake/intake_splash.jpg') center center no-repeat;
+  background-size: cover;
+}
+.actions li:nth-child(5) a:hover {
+  background-color: #f850a3;
+}
+.actions li:nth-child(4) a:hover {
+  background-color: #cb4587;
+}
+.actions li:nth-child(3) a:hover {
+  background-color: #9f3a6c;
+}
+.actions li:nth-child(2) a:hover {
+  background-color: #722f50;
+}
+.actions li:nth-child(1) a:hover {
+  background-color: #462435;
+}
+#awards li:nth-child(8) a:hover {
+  background-color: #f850a3;
+}
+#awards li:nth-child(7) a:hover {
+  background-color: #dc4992;
+}
+#awards li:nth-child(6) a:hover {
+  background-color: #c04281;
+}
+#awards li:nth-child(5) a:hover {
+  background-color: #a43b6f;
+}
+#awards li:nth-child(4) a:hover {
+  background-color: #89355e;
+}
+#awards li:nth-child(3) a:hover {
+  background-color: #6d2e4d;
+}
+#awards li:nth-child(2) a:hover {
+  background-color: #51273c;
+}
+#awards li:nth-child(1) a:hover {
+  background-color: #35202a;
+}
+#features li {
+  margin-bottom: 30px;
+}

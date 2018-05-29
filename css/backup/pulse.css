@@ -1,0 +1,15 @@
+ul.screenshots
+{
+	margin-top: 22px;
+}
+
+
+.divider
+{
+	background-image: url("/img/pulse/pulse_divider.jpg");
+}
+
+p.divider
+{
+	margin-top: 0px;
+}

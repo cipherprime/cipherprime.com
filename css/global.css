@@ -1,0 +1,1126 @@
+@import "loader.css";
+html,
+body {
+  font-family: "BrandonText-Light";
+  font-size: 18px;
+  line-height: 1.428571429;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: normal;
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  font-size: 3.5em;
+  line-height: 1em;
+  font-family: "BrandonText-Thin";
+  font-weight: normal;
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: .015em;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 1em;
+  font-family: "BrandonText-Regular";
+  font-weight: normal;
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: .2px;
+  margin-bottom: 45px;
+}
+h2.promo {
+  font-size: 2em;
+}
+h3 {
+  font-family: "BrandonText-Regular";
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+#header .toggle {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-family: "BrandonText-Medium";
+}
+#menu {
+  line-height: 25px;
+  font-family: "BrandonText-Medium";
+  font-size: 14px;
+}
+#menu h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+}
+#menu a {
+  text-transform: uppercase;
+  font-family: "BrandonText-Regular";
+  letter-spacing: 1px;
+  transition: letter-spacing .1s;
+}
+#menu a:hover {
+  letter-spacing: 3px;
+}
+#menu .minor a {
+  text-transform: none;
+  font-family: "BrandonText-Light";
+}
+#menu .title {
+  padding: 45px 30px;
+  line-height: 33px;
+}
+#menu .title a {
+  letter-spacing: normal;
+}
+#menu .title a.hover {
+  letter-spacing: normal;
+}
+#menu .title h2 {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-family: "BrandonText-Medium";
+  margin: 0px;
+  padding: 0px;
+  height: 25px;
+}
+#menu .tag {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-family: "BrandonText-Regular";
+  margin-left: 5px;
+}
+#menu .social li {
+  display: inline-block;
+}
+#menu .social a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+}
+#menu .n3rdst {
+  background: url("/img/ui/n3rdst_normal.png") top left no-repeat;
+  transition: background .25s;
+  display: block;
+  width: 76px;
+  height: 25px;
+}
+#menu .n3rdst:hover {
+  background-image: url("/img/ui/n3rdst_hover.png");
+}
+#menu .n3rdst img {
+  width: 76px;
+  height: 25px;
+}
+.bottom .sidebar {
+  font-size: .8em;
+  letter-spacing: .11px;
+}
+.bottom .sidebar a {
+  border-bottom: 1px solid #DDD;
+  transition: border-bottom .2s;
+}
+.bottom .sidebar a:hover {
+  border-color: #000;
+}
+.bottom .sidebar section {
+  padding: 0px;
+  margin: 30px 0px;
+}
+.bottom .sidebar section ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.bottom .sidebar section:first-child {
+  margin-top: 0px;
+}
+.bottom .sidebar .actions {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+.bottom .sidebar .actions a {
+  font-family: "BrandonText-Light";
+  text-decoration: none;
+  display: inline-block;
+  min-width: auto;
+  transition: min-width .25s, background-color .2s, color .2s, transform .2s;
+  border: none;
+}
+.bottom .sidebar .actions li {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.8em;
+  line-height: 1.5em;
+}
+.bottom .sidebar .actions .primary a {
+  font-family: "BrandonText-Bold";
+}
+.bottom .sidebar .actions .promo {
+  font-size: 2em;
+}
+.bottom .sidebar .actions .promo a {
+  font-family: "BrandonText-Bold";
+}
+.bottom .sidebar .actions a:hover {
+  padding: 0px 10px;
+  margin-left: -10px;
+  text-decoration: none;
+  min-width: 100%;
+}
+.bottom a {
+  border-bottom: 1px solid #DDD;
+  transition: border-bottom .2s;
+}
+.bottom a:hover {
+  border-color: #000;
+}
+.actions a:hover {
+  color: #FFF;
+  background: #000;
+}
+.main,
+.lead {
+  font-family: "BrandonText-Light";
+  font-size: 1.3em;
+}
+.bottom h1,
+.bottom h2 {
+  margin: 0px;
+}
+.bottom h1 {
+  font-size: 2em;
+  line-height: 1em;
+  text-transform: uppercase;
+  font-family: "BrandonText-Light";
+}
+.bottom h2 {
+  text-transform: uppercase;
+  font-family: "BrandonText-Light";
+  font-size: 1.5em;
+  line-height: 1em;
+}
+.bottom h3 {
+  font-size: 1em;
+}
+.testimonial {
+  margin-bottom: 20px;
+}
+.testimonial blockquote {
+  padding: 0px;
+  margin: 30px 0px;
+}
+.testimonial .screenshot {
+  width: 100%;
+  height: 10px;
+}
+.testimonial blockquote p {
+  font-family: "BrandonText-LightItalic";
+  font-size: 1.3em;
+  line-height: 1.5em;
+  margin: 0px;
+}
+.testimonial blockquote footer {
+  text-align: right;
+  font-size: 1em;
+  font-family: "BrandonText-Regular";
+}
+.testimonial blockquote footer a {
+  font-family: "BrandonText-Bold";
+}
+#awards h3 {
+  letter-spacing: normal;
+}
+@media (max-width: 768px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+  .main {
+    text-align: center;
+  }
+}
+.stat {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  color: #FFF;
+}
+.show-grid {
+  margin-bottom: 15px;
+}
+.show-grid [class*=col-] {
+  background-color: #eee;
+  background-color: rgba(86,61,124,0.15);
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,0.2);
+}
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  color: #000;
+  font-family: "BrandonText-Regular" "Helvetica" sans-serif;
+}
+body {
+  background: center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#content section {
+  background: #FFF;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  font-family: "BrandonText-Bold";
+}
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+strong {
+  font-family: "BrandonText-Bold";
+  font-weight: normal;
+  font-style: normal;
+}
+img.dynamic {
+  max-width: 100%;
+  max-height: auto;
+}
+hr {
+  border-color: #000;
+}
+#header {
+  z-index: 20;
+}
+#container {
+  width: 100%;
+  min-height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+#header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+#header .logo {
+  width: 68px;
+  height: 146px;
+  background: url("/img/ui/cp_vertical_logo_black.png") top left no-repeat;
+  position: fixed;
+  top: 45px;
+  left: 45px;
+  background-size: contain;
+  transition: background-image .25s, width .1s, height .1s;
+}
+#header .logo:hover {
+  background-image: url("/img/ui/cp_vertical_logo_grey.png");
+}
+#header a.logo.small,
+.static #header a.logo {
+  background-image: url("/img/ui/cp_vertical_logo_black_plain.png");
+  width: 22px;
+  height: 48px;
+}
+#header a.logo.small:hover,
+.static #header a.logo:hover {
+  background-image: url("/img/ui/cp_vertical_logo_grey_plain.png");
+}
+#content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.maintitle {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  z-index: 10;
+  transition: color .25s;
+}
+#player {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+}
+#dismiss {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  display: none;
+  z-index: 10000;
+  transition: right .25s;
+}
+.menu-open #dismiss {
+  display: block;
+  right: 250px;
+}
+#header .toggle {
+  position: fixed;
+  top: 50px;
+  right: 45px;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  background: url("/img/ui/menu_btn.png") right center no-repeat;
+  width: 110px;
+  height: 25px;
+  z-index: 100;
+  transition: color .25s, background-image .25s;
+}
+#header .toggle:hover {
+  color: #a0a0a0;
+  background-image: url("/img/ui/menu_btn_grey.png");
+}
+.button,
+input[type="submit"] {
+  background: #000;
+  border: none !important;
+  display: inline-block;
+  padding: 8px 20px !important;
+  border-radius: 6px !important;
+  color: #FFF;
+  text-transform: uppercase !important;
+  font-family: "BrandonText-Bold" !important;
+  font-size: .8em !important;
+  width: auto !important;
+  transition: background-color .25s, color .25s;
+}
+.button:hover,
+input[type="submit"]:hover {
+  background-color: #A0A0A0;
+  text-decoration: none;
+  color: #FFF;
+}
+#content .shadow.right {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 0px;
+  bottom: 0px;
+  background: url("/img/ui/left_shadow.png") top left repeat-y;
+  transition: right .25s, width .25s;
+}
+.menu-open #content .shadow.right {
+  right: -5px;
+  width: 5px;
+  z-index: 1;
+}
+#menu {
+  position: fixed;
+  width: 270px;
+  top: 0px;
+  left: 100%;
+  height: 100%;
+  background: #F4F4F4 url("/img/ui/menu_bg.png") left bottom repeat-x;
+  overflow-y: scroll;
+}
+#menu h3 {
+  color: #000;
+}
+#menu a {
+  color: #979797;
+}
+#menu a:hover {
+  color: #000;
+}
+#menu a.toggle {
+  width: 24px;
+  height: 24px;
+  margin-top: -1px;
+  display: inline-block;
+  float: right;
+  background: url("/img/ui/menu_exit_btn.png") center center no-repeat;
+}
+#menu a.toggle:hover {
+  background: url("/img/ui/menu_exit_btn_black.png") center center no-repeat;
+}
+#menu ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  margin-bottom: 30px;
+}
+#menu li {
+  margin: 0px;
+}
+#menu li.current {
+  margin: 0px -30px;
+  padding: 1px 30px 0px 30px;
+  background: #000 url("/img/ui/menu_selected_btn.png") left center no-repeat;
+}
+#menu li.current a {
+  color: #FFF;
+}
+#menu li.current a.hover {
+  color: #FFF;
+}
+#menu li.current a.toggle {
+  z-index: 100;
+}
+#menu li.current a.toggle:hover {
+  background-image: url("/img/ui/menu_exit_btn_white.png");
+}
+#menu .content {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  padding: 48px 30px;
+}
+#menu .minor a {
+  text-transform: none;
+  font-family: "BrandonText-Light";
+}
+#menu .title {
+  width: 100%;
+  height: 126px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+#menu .title .toggle {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  display: block;
+  right: 20px;
+  top: 49px;
+  background: url("/img/ui/menu_exit_btn.png") center center no-repeat;
+}
+#menu .title .toggle:hover {
+  background: url("/img/ui/menu_exit_btn.png") center center no-repeat;
+}
+#menu .new {
+  color: #ff1895;
+}
+#menu .dev {
+  color: #17c5ff;
+}
+#menu .offsite {
+  font-size: 10px;
+  margin-left: 5px;
+  background: url("/img/ui/menu_offsite_btn.png") top left no-repeat;
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+}
+.light #header .logo {
+  background-image: url("/img/ui/cp_vertical_logo_white.png");
+}
+.light #header .logo:hover {
+  background-image: url("/img/ui/cp_vertical_logo_grey.png");
+}
+.light #header .toggle {
+  color: #FFF;
+  background-image: url("/img/ui/menu_btn_white.png");
+}
+.light #header .toggle:hover {
+  color: #A0A0A0;
+  background-image: url("/img/ui/menu_btn_grey.png");
+}
+.light .button,
+.light input[type="submit"] {
+  background-color: #FFF;
+  color: #000;
+}
+.light .button:hover,
+.light input[type="submit"]:hover {
+  background-color: #A0A0A0;
+  color: #000;
+}
+.light #header a.logo.small,
+.light.static #header a.logo {
+  background-image: url("/img/ui/cp_vertical_logo_white_plain.png");
+}
+.light #header a.logo.small:hover,
+.light.static #header a.logo:hover {
+  background-image: url("/img/ui/cp_vertical_logo_grey_plain.png");
+}
+[data-youtube] {
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+  font-size: 80px;
+  color: rgba(255,255,255,0);
+  display: table;
+  transition: color .25s;
+  -webkit-transition: color .25s;
+}
+[data-youtube]:hover {
+  color: #FFF;
+}
+[data-youtube]:hover i {
+  background-color: rgba(0,0,0,0.5);
+}
+[data-youtube] i {
+  display: table-cell;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 315px;
+  background-color: rgba(0,0,0,0);
+  transition: background-color .25s;
+  -webkit-transition: background-color .25s;
+}
+.origin {
+  z-index: 10;
+}
+@keyframes showContent {
+  from: {
+    height: 100vh;
+  }
+  to: {
+    height: 90vh;
+  }
+}
+@-webkit-keyframes showContent {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 530px;
+  }
+}
+.top {
+  position: relative;
+  height: 80vh;
+  background: #FFF;
+}
+.top .shadow {
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  bottom: -5px;
+  left: 0px;
+  background: url('/img/ui/top_shadow.png') top left repeat-x;
+  opacity: 0;
+  transition: opacity .5s;
+}
+.docked .top .shadow {
+  opacity: 1;
+}
+.topshim {
+  height: 530px;
+  display: none;
+}
+.bottom .sidebar {
+  line-height: 24px;
+}
+.bottom section {
+  padding: 45px 0px;
+}
+.bottom section.flush {
+  padding: 0px;
+}
+.bottom .content {
+  max-width: 940px;
+  margin: 0px auto;
+}
+.main ul {
+  list-style: none;
+  padding: 0px;
+}
+.main ul li {
+  margin: 10px 0px;
+}
+.divider,
+#content section.divider {
+  background: center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100px;
+  color: #FFF;
+  background-color: transparent;
+}
+iframe[src=""] {
+  background: #EEE;
+}
+ul.screenshots {
+  list-style: none;
+  padding: 0px;
+}
+ul.screenshots li {
+  transition: border-color .25s;
+}
+ul.screenshots li:last-child {
+  margin-right: 0px;
+}
+ul.screenshots li img,
+ul.screenshots li div {
+  width: 100%;
+  height: 116px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul.screenshots .hover {
+  background-color: rgba(0,0,0,0);
+  transition: background-color .25s;
+}
+ul.screenshots li img:hover .hover,
+ul.screenshots li div:hover .hover {
+  background-color: rgba(0,0,0,0.5);
+}
+.light ul.screenshots li {
+  border-color: #FFF;
+}
+.light ul.screenshots li:hover {
+  border-color: #000;
+}
+.light .maintitle {
+  color: #FFF;
+}
+#container {
+  transition: margin-left .25s;
+}
+#menu {
+  transition: margin-left .25s;
+}
+#header .toggle {
+  transition: all .25s;
+}
+.docked .maintitle .button {
+  transition: margin-left .25s;
+}
+.maintitle .dockable {
+  transition: margin-left .25s;
+}
+.menu-open #container {
+  margin-left: -250px;
+}
+.menu-open #header .toggle {
+  right: 295px;
+}
+.menu-open #menu {
+  margin-left: -250px;
+  -webkit-overflow-scrolling: touch;
+}
+.snapButton .maintitle .dockable {
+  position: fixed;
+  top: 45px;
+  left: 50%;
+}
+.snapButton .maintitle .dockable .button {
+  position: relative;
+  left: -50%;
+}
+.menu-open.snapButton .maintitle .dockable {
+  margin-left: -250px;
+}
+.docked .bottom {
+  margin-top: 80vh;
+}
+.docked.static .bottom {
+  margin-top: 125px;
+}
+.docked .origin {
+  position: fixed;
+  width: 100%;
+  bottom: 100%;
+  height: 100%;
+}
+.docked .top {
+  width: 100%;
+  bottom: -125px;
+  position: absolute;
+}
+.bottom .content {
+  clear: both;
+  overflow: auto;
+}
+#social {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 30px;
+  transition: left .25s;
+}
+.menu-open #social {
+  left: -250px;
+}
+#social h3 {
+  padding: 0px;
+}
+#social h3 a {
+  display: block;
+  background: #000;
+  background-position: center center;
+  background-repeat: no-repeat;
+  font-family: "BrandonText-Light";
+  letter-spacing: 1.2px;
+  font-size: 12px;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: right;
+  padding-right: 20px;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer !important;
+  box-sizing: border-box;
+}
+no-touch #social h3 a:hover {
+  color: #000;
+  background: #FFF;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#social .body {
+  padding: 0px 20px;
+  background: rgba(230,230,230,0.8);
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .25s, padding .25s;
+}
+#social.open .body {
+  max-height: 300px;
+  padding: 20px;
+}
+#social .body input[type="email"] {
+  border: 1px solid #979797;
+  border-radius: 6px;
+  font-size: 14px;
+  padding: 8px 10px;
+  background: rgba(255,255,255,0.8);
+  width: 300px;
+}
+#social .body input[type="submit"] {
+  float: right;
+}
+#social .tag {
+  font-family: "BrandonText-MediumItalic";
+  font-size: 12px;
+}
+#social section {
+  position: absolute;
+}
+#social .mailing {
+  width: 440px;
+  bottom: 0px;
+  right: 40px;
+}
+#social .twitter {
+  bottom: 0px;
+  right: 0px;
+  width: 40px;
+}
+#social .shim {
+  bottom: 0px;
+  left: 0px;
+  background: #000;
+  height: 100%;
+  right: 480px;
+}
+#social .twitter h3 a {
+  background-image: url("/img/ui/twitter_icon_white.png");
+}
+#social .twitter h3 a:hover {
+  background-color: #4099FF;
+}
+#awards ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+#awards ul li {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  min-height: 90px;
+  background: url("/img/ui/laurel.png") top center no-repeat;
+  padding-top: 64px;
+  margin-bottom: 40px;
+}
+#awards ul li h3 {
+  font-size: 18px;
+  font-family: "BrandonText-Light";
+}
+#awards ul li a {
+  font-family: "BrandonText-Bold";
+  font-size: 12px;
+  text-transform: uppercase;
+  border: none;
+  background: #000;
+  padding: 0px 5px;
+  color: #FFF;
+  transition: padding .1s;
+}
+#awards li a:hover {
+  padding: 5px;
+  color: #FFF;
+  text-decoration: none;
+}
+#awards li[class*=col-]:nth-child(4n+1) {
+  clear: left;
+}
+.purchase {
+  max-width: 546px;
+  margin: 0px auto;
+  border-radius: 5px;
+  border: none !important;
+  background-color: #000;
+  color: #FFF;
+  display: block;
+  text-align: right;
+  font-size: 30px;
+  font-family: "BrandonText-Regular";
+  text-transform: uppercase;
+  transition: background-position .25s, background-color .25s !important;
+}
+.purchase span {
+  display: block;
+  padding: 30px;
+}
+.purchase:hover {
+  color: #FFF;
+}
+.purchase.steam {
+  background: #000 url("/img/ui/vendors/steam_bkg.png") center 100px no-repeat;
+}
+.purchase.steam span {
+  background: url("/img/ui/vendors/steam.png") 30px center no-repeat;
+}
+.purchase.steam:hover {
+  background-color: #1e1935;
+  background-position: center -260px;
+}
+.purchase.psn {
+  background: #000 url("/img/ui/vendors/psn_bkg.png") center 100px no-repeat;
+}
+.purchase.psn span {
+  background: url("/img/ui/vendors/psn.png") 30px center no-repeat;
+}
+.purchase.psn:hover {
+  background-color: #193a53;
+  background-position: center bottom;
+}
+.purchase.itunes {
+  background: #000 url("/img/ui/vendors/itunes_bkg.png") center 100px no-repeat;
+}
+.purchase.itunes span {
+  background: url("/img/ui/vendors/apple.png") 30px center no-repeat;
+}
+.purchase.itunes:hover {
+  background-color: #ff2199;
+  background-position: center bottom;
+}
+.purchase.play {
+  background: #000 url("/img/ui/vendors/play_bkg.png") 0px 100px no-repeat;
+}
+.purchase.play span {
+  background: url("/img/ui/vendors/play.png") 30px center no-repeat;
+}
+.purchase.play:hover {
+  background-color: #68ccaa;
+  background-position: center bottom;
+}
+.purchase.ubuntu {
+  background: #000 url("/img/ui/vendors/ubuntu_bkg.png") center 100px no-repeat;
+}
+.purchase.ubuntu span {
+  background: url("/img/ui/vendors/ubuntu.png") 20px center no-repeat;
+}
+.purchase.ubuntu:hover {
+  background-color: #551a2e;
+  background-position: center bottom;
+}
+.purchase.appstore {
+  background: #000 url("/img/ui/vendors/appstore_bkg.png") center 100px no-repeat;
+}
+.purchase.appstore span {
+  background: url("/img/ui/vendors/appstore.png") 30px center no-repeat;
+}
+.purchase.appstore:hover {
+  background-color: #235760;
+  background-position: center bottom;
+}
+.purchase.humble {
+  background: #000 url("/img/ui/vendors/humble_bkg.png") center 100px no-repeat;
+}
+.purchase.humble span {
+  background: url("/img/ui/vendors/humble.png") 30px center no-repeat;
+}
+.purchase.humble:hover {
+  background-color: #313131;
+  background-position: center bottom;
+}
+.humblewrap {
+  width: 550px;
+  height: 264px;
+  margin: 0px auto;
+  overflow: hidden;
+  position: relative;
+}
+#humblewidget {
+  position: absolute;
+  top: 0px;
+  transition: top .4s;
+}
+#humblewidget.loading {
+  top: 530px;
+}
+.buy .top {
+  background: #FFF !important;
+}
+dt {
+  font-family: "BrandonText-Light";
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+dd {
+  margin-bottom: 20px;
+  margin-left: 0px;
+}
+#features ul li {
+  margin-bottom: 8px;
+}
+@media (max-width: 768px) {
+  #header a.logo {
+    background-image: url("/img/ui/cp_vertical_logo_black_plain.png");
+    width: 22px;
+    height: 48px;
+    top: 20px;
+    left: 20px;
+  }
+  #header a.logo:hover {
+    background-image: url("/img/ui/cp_vertical_logo_black_white.png");
+  }
+  #header .toggle {
+    top: 25px;
+    right: 20px;
+  }
+  .maintitle {
+    height: 120px;
+  }
+  .maintitle h2 {
+    margin-bottom: 10px;
+  }
+  .button,
+  input[type="submit"] {
+    padding: 5px 10px !important;
+  }
+  .menu-open #header .toggle {
+    right: 270px;
+    opacity: 0;
+  }
+  #scenes nav a.prev {
+    left: 20px;
+    display: none;
+  }
+  #scenes nav a.next {
+    right: 20px;
+    display: none;
+  }
+  .top {
+    height: 80vh;
+  }
+  .docked .bottom {
+    margin-top: 80vh;
+  }
+  .purchase {
+    font-size: 15px;
+  }
+  .purchase span {
+    padding: 15px;
+    background-size: auto 70% !important;
+    background-position-x: 15px !important;
+  }
+  .snapButton .maintitle .dockable {
+    top: 25px;
+  }
+  .docked .top {
+    bottom: -75px;
+  }
+  .docked.static .bottom {
+    margin-top: 75px;
+  }
+}
+@media (max-width: 992px) {
+  .bottom .maincontent {
+    padding-top: 30px;
+  }
+  .bottom .sidebar {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .bottom .sidebar li {
+    text-align: left;
+  }
+  .bottom .sidebar .actions li {
+    display: inline-block;
+    font-size: 20px;
+  }
+  .bottom .sidebar .actions {
+    display: inline-block;
+    margin: 0px auto;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #EEE;
+  }
+  .bottom .sidebar .actions li a,
+  .bottom .sidebar .actions li a:hover {
+    padding: 0px 10px;
+    margin-left: 0px;
+    min-width: auto;
+  }
+  .sidebar section {
+    text-align: left;
+  }
+  .bottom .main section:first-child {
+    padding: 45px 0px;
+  }
+  .snapButton .hidden-docked {
+    display: none;
+  }
+  .visible-docked {
+    display: none;
+  }
+  .snapButton .visible-docked {
+    display: inherit;
+  }
+}
+@media (max-width: 768px) and (orientation: landscape) {
+  .top {
+    height: 100vh;
+  }
+  .docked .bottom {
+    margin-top: 100vh;
+  }
+}
+.humble_weekly_main {
+  max-width: 410px;
+  height: 510px;
+  margin: 40px auto;
+}
+#content section.humble_weekly_promo {
+  background: #000 url("/img/static/humble_promo.jpg") center center no-repeat;
+  background-size: cover;
+  color: #FFF;
+  text-transform: uppercase;
+  line-height: normal;
+}
+#content section.humble_weekly_promo .text a {
+  color: #FFF;
+  border: none;
+  font-family: "BrandonText-Light";
+}

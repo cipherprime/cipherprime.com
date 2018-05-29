@@ -1,0 +1,14 @@
+.top {
+  background: #212121 url("/img/about/tattoos.jpg") center center no-repeat;
+  background-size: cover;
+  height: 530px;
+}
+.maintitle {
+  height: 100px;
+}
+.maintitle h1 {
+  font-size: 2.5em;
+}
+.docked .bottom {
+  margin-top: 530px;
+}
