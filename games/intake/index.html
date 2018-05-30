@@ -79,9 +79,9 @@ testimonials: |
 
 
     <ul id="screenshots" class="screenshots row">
-    <li class="col-xs-6"><?=$this->Theme->lightbox("/img/intake/thumbs/intake1.jpg", "/img/intake/screens/intake1.jpg", "screenshots")?></li>
-    <li class="col-xs-3"><?=$this->Theme->lightbox("/img/intake/thumbs/intake2.jpg", "/img/intake/screens/intake2.jpg", "screenshots")?></li>
-    <li class="col-xs-3"><?=$this->Theme->lightbox("/img/intake/thumbs/intake3.jpg", "/img/intake/screens/intake3.jpg", "screenshots")?></li>
+    <li class="col-xs-6">{% include screenshot.html game="intake" image="intake1" %}</li>
+    <li class="col-xs-3">{% include screenshot.html game="intake" image="intake2" %}</li>
+    <li class="col-xs-3">{% include screenshot.html game="intake" image="intake3" %}</li>
     </ul>
 
     <ul id="features">

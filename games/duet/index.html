@@ -1,7 +1,7 @@
 ---
 layout: product
 title: "Auditorium Duet"
-css: games/duet.css
+css: games/duet
 theme: light
 appear: #151019
 
@@ -47,9 +47,9 @@ sidebar: |
 	<hr/>
 
 	<ul id="screenshots" class="screenshots row">
-		<li class="col-xs-6"><?=$this->Theme->lightbox("/img/duet/thumbs/duet1.jpg", "/img/duet/screens/duet1.jpg", "screenshots")?></li>
-		<li class="col-xs-3"><?=$this->Theme->lightbox("/img/duet/thumbs/duet2.jpg", "/img/duet/screens/duet2.jpg", "screenshots")?></li>
-		<li class="col-xs-3"><?=$this->Theme->lightbox("/img/duet/thumbs/duet3.jpg", "/img/duet/screens/duet3.jpg", "screenshots")?></li>
+		<li class="col-xs-6">{% include screenshot.html game="duet" image="duet1" %}</li>
+		<li class="col-xs-3">{% include screenshot.html game="duet" image="duet2" %}</li>
+		<li class="col-xs-3">{% include screenshot.html game="duet" image="duet3" %}</li>
 	</ul>
 
 	<h3>The Process</h3>

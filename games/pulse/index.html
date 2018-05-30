@@ -134,9 +134,9 @@ end: |
 
 
 <ul id="screenshots" class="screenshots row">
-    <li class="col-xs-6"><?=$this->Theme->lightbox("/img/pulse/thumbs/pulse2.jpg", "/img/pulse/screens/pulse2.jpg", "screenshots")?></li>
-    <li class="col-xs-3"><?=$this->Theme->lightbox("/img/pulse/thumbs/pulse1.jpg", "/img/pulse/screens/pulse1.jpg", "screenshots")?></li>
-    <li class="col-xs-3"><?=$this->Theme->lightbox("/img/pulse/thumbs/pulse3.jpg", "/img/pulse/screens/pulse3.jpg", "screenshots")?></li>
+    <li class="col-xs-6">{% include screenshot.html game="pulse" image="pulse1" %}</li>
+    <li class="col-xs-3">{% include screenshot.html game="pulse" image="pulse2" %}</li>
+    <li class="col-xs-3">{% include screenshot.html game="pulse" image="pulse3" %}</li>
 </ul>
 
 <hr/>

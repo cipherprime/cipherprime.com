@@ -140,9 +140,9 @@ awards: |
     <hr/>
 
     <ul id="screenshots" class="screenshots row">
-    <li class="col-xs-6"><?=$this->Theme->lightbox("/img/auditorium/thumbs/screenshot_03.jpg", "/img/auditorium/screens/screenshot_03.jpg", "screenshots")?></li>
-    <li class="col-xs-3"><?=$this->Theme->lightbox("/img/auditorium/thumbs/screenshot_04.jpg", "/img/auditorium/screens/screenshot_04.jpg", "screenshots")?></li>
-    <li class="col-xs-3"><?=$this->Theme->lightbox("/img/auditorium/thumbs/auditorium_2.jpg", "/img/auditorium/screens/auditorium_2.png", "screenshots")?></li>
+    <li class="col-xs-6">{% include screenshot.html game="auditorium" image="screenshot_03" %}</li>
+    <li class="col-xs-3">{% include screenshot.html game="auditorium" image="screenshot_04" %}</li>
+    <li class="col-xs-3">{% include screenshot.html game="auditorium" image="auditorium_2" %}</li>
     </ul>
 
     <p>If you enjoyed the demo, we highly recommend trying out the full version of the game which has 70+ levels spread across 15 Acts. The full version is the culmination of over 8 months work for 2 indie game developers, <a href="//twitter.com/dainsaint">Dain Saint</a> and <a href="//twitter.com/willstall">William Stallwood</a>.</p>
