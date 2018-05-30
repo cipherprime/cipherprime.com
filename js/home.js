@@ -1,7 +1,7 @@
 $(document).ready( function(){
 
 	setInterval( moveStatic, 66);
-	
+	console.log( "Eh ");
 });
 
 
@@ -13,4 +13,3 @@ function moveStatic(){
 		});
 	});
 }
-
