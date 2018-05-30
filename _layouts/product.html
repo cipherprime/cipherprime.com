@@ -52,19 +52,23 @@ layout: default
 
     <div class="divider"></div>
 
+    {% if page.testimonials %}
+
     <section class="testimonials">
-    <div class="container">
+        <div class="container">
 
-    <div class="row testimonial">
+        <div class="row testimonial">
 
-    <div class="col-sm-12">
+            <div class="col-sm-12">
 
-    {{ page.testimonials }}
+                {{ page.testimonials }}
+
+            </div>
+        </div>
 
     </div>
-    </div>
 
-    </div>
+    {% endif %}
 
     </section>
 
