@@ -1,0 +1,93 @@
+<data>
+  <streams>
+    <stream>
+      <position>792, 26</position>
+      <vector>-23.8, 31.23125</vector>
+      <noise>30</noise>
+      <color>0</color>
+      <totalParticles>100</totalParticles>
+    </stream>
+  </streams>
+  <warps>
+    <warp type="ColorModifier">
+      <position>353, 127</position>
+      <radius>58.02385149546511</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>1</color>
+    </warp>
+    <warp type="ColorModifier">
+      <position>205.0228588125, 182</position>
+      <radius>70.0342174917059</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>0</color>
+    </warp>
+    <warp type="ColorModifier">
+      <position>579, 278</position>
+      <radius>166.80640755209356</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>2</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>323.97616175, 158.975526</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>1</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>460, 265</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>2</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>474, 75</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>2</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>247, 270</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>0</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>317.01770825, 371.9706268125</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>0</color>
+    </warp>
+    <warp type="FallModifier">
+      <position>271, 128</position>
+      <radius>132.02023545988175</radius>
+      <strength>-4</strength>
+      <mode>linear</mode>
+    </warp>
+    <warp type="PushModifier">
+      <position>182, 262</position>
+      <radius>112.98632024198196</radius>
+      <strength>4</strength>
+      <mode>linear</mode>
+    </warp>
+    <warp type="RiseModifier">
+      <position>452, 396</position>
+      <radius>150.81160797693724</radius>
+      <strength>4</strength>
+      <mode>linear</mode>
+    </warp>
+    <warp type="PullModifier">
+      <position>502, 132</position>
+      <radius>96.90874918385876</radius>
+      <strength>-4</strength>
+      <mode>linear</mode>
+    </warp>
+  </warps>
+</data>

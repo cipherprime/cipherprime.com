@@ -1,0 +1,90 @@
+<data>
+  <streams>
+    <stream>
+      <position>716, 381</position>
+      <vector>-26.0375, -6.625</vector>
+      <noise>30</noise>
+      <color>0</color>
+      <totalParticles>100</totalParticles>
+    </stream>
+  </streams>
+  <warps>
+    <warp type="PortalModifier">
+      <gateA>
+        <position>598, 83</position>
+        <radius>24</radius>
+      </gateA>
+      <gateB>
+        <position>101, 91</position>
+        <radius>24</radius>
+      </gateB>
+    </warp>
+    <warp type="ColorModifier">
+      <position>248, 248</position>
+      <radius>110</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>2</color>
+    </warp>
+    <warp type="ColorModifier">
+      <position>342, 140</position>
+      <radius>128</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>1</color>
+    </warp>
+    <warp type="ColorModifier">
+      <position>661, 286</position>
+      <radius>133.096045432002</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>0</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>501, 45</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>1</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>165, 115</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>1</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>52, 167</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>2</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>516, 159</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>0</color>
+    </warp>
+    <warp type="DeflectModifier">
+      <position>115, 140</position>
+      <radius>128</radius>
+      <strength>4</strength>
+      <mode>linear</mode>
+    </warp>
+    <warp type="AttractModifier">
+      <position>547, 174</position>
+      <radius>188</radius>
+      <strength>4</strength>
+      <mode>spherical</mode>
+    </warp>
+    <warp type="RabbitModifier">
+      <position>238, 198</position>
+      <radius>50</radius>
+      <strength>1.2</strength>
+      <mode>linear</mode>
+    </warp>
+  </warps>
+</data>

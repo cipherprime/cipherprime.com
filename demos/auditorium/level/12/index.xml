@@ -1,0 +1,52 @@
+<data>
+  <streams>
+    <stream>
+      <position>783, 292</position>
+      <vector>-33.2375, 9.425</vector>
+      <noise>30</noise>
+      <color>0</color>
+      <totalParticles>100</totalParticles>
+    </stream>
+  </streams>
+  <warps>
+    <warp type="ContainerModifier">
+      <position>253, 176</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>0</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>199, 42</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>0</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>244, 314</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>0</color>
+    </warp>
+    <warp type="PushModifier">
+      <position>166, 231</position>
+      <radius>110</radius>
+      <strength>4</strength>
+      <mode>linear</mode>
+    </warp>
+    <warp type="PullModifier">
+      <position>331, 138</position>
+      <radius>68</radius>
+      <strength>-4</strength>
+      <mode>linear</mode>
+    </warp>
+    <warp type="RiseModifier">
+      <position>386, 399</position>
+      <radius>80</radius>
+      <strength>4</strength>
+      <mode>linear</mode>
+    </warp>
+  </warps>
+</data>

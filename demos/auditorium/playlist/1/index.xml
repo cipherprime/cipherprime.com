@@ -1,0 +1,443 @@
+<playlist id="the experience">
+	<acts>
+		<act id="1" title="Hajimemashite">
+			<palette>
+				<color>
+					0xc5c5c9
+				</color>
+				<color>
+					0xFFFFFF
+				</color>
+				<color>
+					0xc5c5c9
+				</color>				
+			</palette>
+			<audio>
+				<song>
+					<track url="demos/auditorium/game_assets/bgm/hajimemashite_pianoR.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/hajimemashite_bass.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/hajimemashite_1violin.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/hajimemashite_pianoL.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/hajimemashite_viola.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/hajimemashite_2violin.mp3"/>
+				</song>
+			</audio>
+			<levels>
+				<level id="4"/>
+				<level id="1"/>
+				<level id="5"/>
+				<level id="12"/>
+				<level id="13"/>
+				<level id="11"/>
+			</levels>
+		</act>
+		<act id="2" title="Amethyst">
+			<palette>
+				<color>
+					0xc5c5c9
+				</color>
+				<color>
+					0xd5a3dF
+				</color>
+				<color>
+					0xeeeca0
+				</color>
+			</palette>
+			<audio>
+				<song>
+					<track url="demos/auditorium/game_assets/bgm/amethyst_pianoR.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/amethyst_pianoL.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/amethyst_bass.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/amethyst_viola.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/amethyst_1violin.mp3"/>
+				</song>
+			</audio>
+			<levels>
+				<level id="14"/>
+				<level id="123"/>
+				<level id="56"/>
+				<level id="19"/>
+				<level id="120"/>
+			</levels>
+		</act>
+		<act id="3" title="Solace">
+			<palette>
+				<color>
+					0xeeeca0
+				</color>
+				<color>
+					0xddaaaa
+				</color>
+				<color>
+					0xaab1ee
+				</color>
+			</palette>
+			<audio>
+				<song>
+					<track url="demos/auditorium/game_assets/bgm/solace_pianoviola.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/solace_bass.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/solace_1violin.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/solace_cello.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/solace_2violin.mp3"/>
+				</song>
+			</audio>
+			<levels>
+				<level id="22"/>
+				<level id="24"/>
+				<level id="25"/>
+				<level id="26"/>
+				<level id="32"/>
+			</levels>
+		</act>
+		<act id="6" title="Atlantic">
+			<palette>
+				<color>
+					0xaab1ee
+				</color>
+				<color>
+					0xd1a8eb
+				</color>
+				<color>
+					0xdddddd
+				</color>
+			</palette>
+			<audio>
+				<song>
+					<track url="demos/auditorium/game_assets/bgm/atlantic_pianoR.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/atlantic_pianoL.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/atlantic_viola.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/atlantic_bass.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/atlantic_1violin.mp3"/>
+				</song>
+			</audio>
+			<levels>
+				<level id="46"/>
+				<level id="47"/>
+				<level id="49"/>
+				<level id="162"/>
+			</levels>
+		</act>
+		<act id="4" title="Vitesse">
+			<palette>
+				<color>
+					0xc5c5c9
+				</color>
+				<color>
+					0xc0dc8f
+				</color>
+				<color>
+					0x92e8db
+				</color>
+			</palette>
+			<audio>
+				<song>
+					<track url="demos/auditorium/game_assets/bgm/vitesse_pianoR.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/vitesse_pianoL.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/vitesse_basscello.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/vitesse_viola.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/vitesse_1violin.mp3"/>
+				</song>
+			</audio>
+			<levels>
+				<level id="38"/>
+				<level id="37"/>
+				<level id="39"/>
+				<level id="40"/>
+				<level id="41"/>
+			</levels>
+		</act>
+		<act id="7" title="Liminal">
+			<palette>
+				<color>
+					0x92e8db
+				</color>
+				<color>
+					0xe3b0cd
+				</color>
+				<color>
+					0xdc8e84
+				</color>
+			</palette>
+			<audio>
+				<song>
+					<track url="demos/auditorium/game_assets/bgm/liminal_pianoR.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/liminal_pianoL.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/liminal_bass.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/liminal_viocello.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/liminal_2violin.mp3"/>
+				</song>
+			</audio>
+			<levels>
+				<level id="44"/>
+				<level id="45"/>
+				<level id="52"/>
+				<level id="54"/>
+				<level id="55"/>
+			</levels>
+		</act>
+		<act id="8" title="Sunset">
+			<palette>
+				<color>
+					0xdc8e84
+				</color>
+				<color>
+					0xf3c796
+				</color>
+				<color>
+					0xe8a1d0
+				</color>
+			</palette>
+			<audio>
+				<song>
+					<track url="demos/auditorium/game_assets/bgm/sunset_pianoR.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/sunset_pianoL.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/sunset_bass.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/sunset_cello.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/sunset_2violin.mp3"/>
+				</song>
+			</audio>
+			<levels>
+				<level id="63"/>
+				<level id="62"/>
+				<level id="64"/>
+				<level id="65"/>
+				<level id="67"/>
+				<level id="66"/>
+			</levels>
+		</act>
+		<act id="9" title="Transmission">
+			<palette>
+				<color>
+					0xe8a1d0
+				</color>
+				<color>
+					0x9ee5ba
+				</color>
+				<color>
+					0x79b3ec
+				</color>
+			</palette>
+			<audio>
+				<song>
+					<track url="demos/auditorium/game_assets/bgm/transmission_pianoR.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/transmission_bass.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/transmission_cello.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/transmission_1violin.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/transmission_2violin.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/transmission_viola.mp3"/>
+				</song>
+			</audio>
+			<levels>
+				<level id="68"/>
+				<level id="115"/>
+				<level id="122"/>
+				<level id="124"/>
+				<level id="125"/>
+			</levels>
+		</act>
+		<act id="15" title="Sojourn">
+			<palette>
+				<color>
+					0x79b3ec
+				</color>
+				<color>
+					0xffff99
+				</color>
+				<color>
+					0xeeeeee
+				</color>
+			</palette>
+			<audio>
+				<song>
+					<track url="demos/auditorium/game_assets/bgm/sojourn_pianoR.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/sojourn_pianoL.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/sojourn_bass.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/sojourn_violin.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/sojourn_harp.mp3"/>
+				</song>
+			</audio>
+			<levels>
+				<level id="69"/>
+				<level id="70"/>
+				<level id="128"/>
+				<level id="130"/>
+			</levels>
+		</act>
+		<act id="10" title="Crystal">
+			<palette>
+				<color>
+					0xeeeeee
+				</color>
+				<color>
+					0x94f0d1
+				</color>
+				<color>
+					0x9ddcfb
+				</color>
+			</palette>
+			<audio>
+				<song>
+					<track url="demos/auditorium/game_assets/bgm/crystal_pianoR.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/crystal_pianoL.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/crystal_bass.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/crystal_viola.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/crystal_flute.mp3"/>
+				</song>
+			</audio>
+			<levels>
+				<level id="33"/>
+				<level id="34"/>
+				<level id="36"/>
+				<level id="59"/>
+				<level id="77"/>
+			</levels>
+		</act>
+		<act id="12" title="Daydream">
+			<palette>
+				<color>
+					0x9ddcfb
+				</color>
+				<color>
+					0xeea0c1
+				</color>
+				<color>
+					0x9383ec
+				</color>
+			</palette>
+			<audio>
+				<song>
+					<track url="demos/auditorium/game_assets/bgm/daydream_pianoR.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/daydream_pianoL.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/daydream_soloviola.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/daydream_bass.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/daydream_violas.mp3"/>
+				</song>
+			</audio>
+			<levels>
+				<level id="84"/>
+				<level id="85"/>
+				<level id="86"/>
+				<level id="87"/>
+				<level id="89"/>
+			</levels>
+		</act>
+		<act id="13" title="Rain">
+			<palette>
+				<color>
+					0x9383ec
+				</color>
+				<color>
+					0x7dc6e8
+				</color>
+				<color>
+					0xbebfcf
+				</color>
+			</palette>
+			<audio>
+				<song>
+					<track url="demos/auditorium/game_assets/bgm/rain_bass.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/rain_pianoL.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/rain_pianoR.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/rain_2violin.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/rain_viola.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/rain_1violin.mp3"/>
+				</song>
+			</audio>
+			<levels>
+				<level id="98"/>
+				<level id="99"/>
+				<level id="100"/>
+				<level id="101"/>
+			</levels>
+		</act>
+		<act id="14" title="Shadow">
+			<palette>
+				<color>
+					0xbebfcf
+				</color>
+				<color>
+					0xec80ff
+				</color>
+				<color>
+					0x97e65c
+				</color>
+			</palette>
+			<audio>
+				<song>
+					<track url="demos/auditorium/game_assets/bgm/shadow_pianoR.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/shadow_pianoL.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/shadow_flute.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/shadow_bass.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/shadow_violinCello.mp3"/>
+				</song>
+			</audio>
+			<levels>
+				<level id="92"/>
+				<level id="93"/>
+				<level id="95"/>
+				<level id="96"/>
+				<level id="97"/>
+			</levels>
+		</act>
+		<act id="16" title="Verdant">
+			<palette>
+				<color>
+					0x97e65c
+				</color>
+				<color>
+					0xfffd9e
+				</color>
+				<color>
+					0xefefef
+				</color>
+			</palette>
+			<audio>
+				<song>
+					<track url="demos/auditorium/game_assets/bgm/verdant_pianoR.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/verdant_pianoL.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/verdant_bass.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/verdant_2violin.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/verdant_1violin.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/verdant_flute.mp3"/>
+				</song>
+			</audio>
+			<levels>
+				<level id="102"/>
+				<level id="103"/>
+				<level id="104"/>
+				<level id="105"/>
+			</levels>
+		</act>
+		<act id="17" title="Finale">
+			<palette>
+				<color>
+					0xefefef
+				</color>
+				<color>
+					0xFFAAFF
+				</color>
+				<color>
+					0xffaaaa
+				</color>
+				<color>
+					0xAAFFAA
+				</color>
+			</palette>
+			<audio>
+				<song>
+					<track url="demos/auditorium/game_assets/bgm/finale_pianoR.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/finale_pianoL.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/finale_bass.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/finale_viola.mp3"/>
+					<track url="demos/auditorium/game_assets/bgm/finale_2violin.mp3"/>
+				</song>
+			</audio>
+			<levels>
+				<level id="163"/>
+				<level id="132"/>
+				<level id="136"/>
+				<level id="134"/>
+			</levels>
+		</act>
+	</acts>
+</playlist>

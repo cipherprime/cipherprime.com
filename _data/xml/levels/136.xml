@@ -1,0 +1,88 @@
+<data>
+  <streams>
+    <stream>
+      <position>487, 116</position>
+      <vector>-14.28125, 11.65625</vector>
+      <noise>30</noise>
+      <color>0</color>
+      <totalParticles>100</totalParticles>
+    </stream>
+  </streams>
+  <warps>
+    <warp type="PortalModifier">
+      <gateA>
+        <position>84, 145</position>
+        <radius>24</radius>
+      </gateA>
+      <gateB>
+        <position>596, 352</position>
+        <radius>24</radius>
+      </gateB>
+    </warp>
+    <warp type="ColorModifier">
+      <position>619, 317</position>
+      <radius>104</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>2</color>
+    </warp>
+    <warp type="ColorModifier">
+      <position>191, 300</position>
+      <radius>80</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>1</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>741, 209</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>2</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>278, 243</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>1</color>
+      <color>2</color>
+      <color>3</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>572, 61</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>1</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>424, 385</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>1</color>
+      <color>3</color>
+    </warp>
+    <warp type="AttractModifier">
+      <position>683, 119</position>
+      <radius>176</radius>
+      <strength>4</strength>
+      <mode>spherical</mode>
+      <color>3</color>
+    </warp>
+    <warp type="PullModifier">
+      <position>657, 75</position>
+      <radius>128</radius>
+      <strength>-4</strength>
+      <mode>linear</mode>
+      <color>1</color>
+    </warp>
+    <warp type="PushModifier">
+      <position>312, 297</position>
+      <radius>104.9659269647816</radius>
+      <strength>4</strength>
+      <mode>linear</mode>
+    </warp>
+  </warps>
+</data>

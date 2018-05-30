@@ -1,0 +1,46 @@
+<data>
+  <streams>
+    <stream>
+      <position>721, 71</position>
+      <vector>-17.89375, 16.75</vector>
+      <noise>30</noise>
+      <color>0</color>
+      <totalParticles>100</totalParticles>
+    </stream>
+  </streams>
+  <warps>
+    <warp type="ColorModifier">
+      <position>225, 223</position>
+      <radius>68</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>1</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>228.03546, 339.97636</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>1</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>349.03025243048967, 256.9754624623288</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>0</color>
+    </warp>
+    <warp type="RiseModifier">
+      <position>395, 354</position>
+      <radius>50</radius>
+      <strength>4</strength>
+      <mode>linear</mode>
+    </warp>
+    <warp type="FallModifier">
+      <position>290, 92</position>
+      <radius>68.19382888882353</radius>
+      <strength>-4</strength>
+      <mode>linear</mode>
+    </warp>
+  </warps>
+</data>

@@ -1,0 +1,88 @@
+<playlist id="the demo">
+	<acts>
+		<act id="20" title="Hajimemashite">
+			<palette>
+				<color>
+					0xc5c5c9
+				</color>
+			</palette>
+			<audio>
+				<song>
+					<track url="demos/auditorium/game_assets/bgm/hajimemashite_pianoR.mp3" />
+					<track url="demos/auditorium/game_assets/bgm/hajimemashite_bass.mp3" />
+					<track url="demos/auditorium/game_assets/bgm/hajimemashite_1violin.mp3" />
+					<track url="demos/auditorium/game_assets/bgm/hajimemashite_pianoL.mp3" />
+					<track url="demos/auditorium/game_assets/bgm/hajimemashite_viola.mp3" />
+					<track url="demos/auditorium/game_assets/bgm/hajimemashite_2violin.mp3" />
+				</song>
+			</audio>
+			<levels>
+				<level id="143" />
+				<level id="144" />
+				<level id="145" />
+				<level id="146" />
+				<level id="148" />
+				<level id="149" />
+			</levels>
+		</act>
+		<act id="21" title="Winter">
+			<palette>
+				<color>
+					0xc5c5c9
+				</color>
+				<color>
+					0xAAFFFF
+				</color>
+				<color>
+					0xFFAAFF
+				</color>
+			</palette>
+			<audio>
+				<song>
+					<track url="demos/auditorium/game_assets/bgm/winter_piano.mp3" />
+					<track url="demos/auditorium/game_assets/bgm/winter_bass.mp3" />
+					<track url="demos/auditorium/game_assets/bgm/winter_2violin.mp3" />
+					<track url="demos/auditorium/game_assets/bgm/winter_cello.mp3" />
+					<track url="demos/auditorium/game_assets/bgm/winter_viola.mp3" />
+				</song>
+			</audio>
+			<levels>
+				<level id="150" />
+				<level id="151" />
+				<level id="152" />
+				<level id="153" />
+				<level id="154" />
+			</levels>
+		</act>
+		<act id="22" title="Spring">
+			<palette>
+				<color>
+					0xc5c5c9
+				</color>
+				<color>
+					0xffaaaa
+				</color>
+				<color>
+					0xFFFFAA
+				</color>
+				<color>
+					0xAAFFFF
+				</color>
+			</palette>
+			<audio>
+				<song>
+					<track url="demos/auditorium/game_assets/bgm/spring_pianoR.mp3" />
+					<track url="demos/auditorium/game_assets/bgm/spring_basspizz.mp3" />
+					<track url="demos/auditorium/game_assets/bgm/spring_bassleg.mp3" />
+					<track url="demos/auditorium/game_assets/bgm/spring_1violin.mp3" />
+					<track url="demos/auditorium/game_assets/bgm/spring_viola.mp3" />
+					<track url="demos/auditorium/game_assets/bgm/spring_2violin.mp3" />
+				</song>
+			</audio>
+			<levels>
+				<level id="155" />
+				<level id="156" />
+			</levels>
+		</act>
+	</acts>
+</playlist>

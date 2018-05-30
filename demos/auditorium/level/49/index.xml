@@ -1,0 +1,79 @@
+<data>
+  <streams>
+    <stream>
+      <position>448, 372</position>
+      <vector>8.975, -2.0125</vector>
+      <noise>30</noise>
+      <color>0</color>
+      <totalParticles>100</totalParticles>
+    </stream>
+  </streams>
+  <warps>
+    <warp type="DivideModifier">
+      <position>525, 211</position>
+      <radius>20</radius>
+      <strength>4</strength>
+      <mode>linear</mode>
+    </warp>
+    <warp type="ColorModifier">
+      <position>472, 104</position>
+      <radius>68</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>1</color>
+    </warp>
+    <warp type="ColorModifier">
+      <position>497, 292</position>
+      <radius>74</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>0</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>208, 82</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>1</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>630, 95</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>0</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>618, 290</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>0</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>371, 203</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>1</color>
+    </warp>
+    <warp type="RiseModifier">
+      <position>492, 337</position>
+      <radius>83</radius>
+      <strength>4</strength>
+      <mode>linear</mode>
+    </warp>
+    <warp type="PushModifier">
+      <position>186, 118</position>
+      <radius>117</radius>
+      <strength>4</strength>
+      <mode>linear</mode>
+    </warp>
+    <warp type="AttractModifier">
+      <position>312, 139</position>
+      <radius>202</radius>
+      <strength>4</strength>
+      <mode>spherical</mode>
+    </warp>
+  </warps>
+</data>

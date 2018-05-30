@@ -1,0 +1,26 @@
+<data>
+  <streams>
+    <stream>
+      <position>45, 40</position>
+      <vector>1.9125, 6.6125</vector>
+      <noise>30</noise>
+      <color>0</color>
+      <totalParticles>100</totalParticles>
+    </stream>
+  </streams>
+  <warps>
+    <warp type="ContainerModifier">
+      <position>747, 220</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>0</color>
+    </warp>
+    <warp type="PushModifier">
+      <position>93, 162</position>
+      <radius>50</radius>
+      <strength>4</strength>
+      <mode>linear</mode>
+    </warp>
+  </warps>
+</data>

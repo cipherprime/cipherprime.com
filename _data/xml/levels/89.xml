@@ -1,0 +1,85 @@
+<data>
+  <streams>
+    <stream>
+      <position>704, 129</position>
+      <vector>-20.15, 7.425</vector>
+      <noise>30</noise>
+      <color>0</color>
+      <totalParticles>100</totalParticles>
+    </stream>
+  </streams>
+  <warps>
+    <warp type="PortalModifier">
+      <gateA>
+        <position>326, 81</position>
+        <radius>24</radius>
+      </gateA>
+      <gateB>
+        <position>707, 326</position>
+        <radius>24</radius>
+      </gateB>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>640, 306</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>1</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>446, 307</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>2</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>469, 130</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>1</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>203, 205</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>1</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>306, 310</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>1</color>
+    </warp>
+    <warp type="RiseModifier">
+      <position>288, 369</position>
+      <radius>122</radius>
+      <strength>4</strength>
+      <mode>linear</mode>
+      <color>1</color>
+    </warp>
+    <warp type="PushModifier">
+      <position>435, 219</position>
+      <radius>50</radius>
+      <strength>4</strength>
+      <mode>linear</mode>
+      <color>1</color>
+    </warp>
+    <warp type="PullModifier">
+      <position>712, 228</position>
+      <radius>50</radius>
+      <strength>-4</strength>
+      <mode>linear</mode>
+      <color>2</color>
+    </warp>
+    <warp type="RabbitModifier">
+      <position>563, 274</position>
+      <radius>50</radius>
+      <strength>1.2</strength>
+      <mode>linear</mode>
+    </warp>
+  </warps>
+</data>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<settings>
+		<mode>GameMode</mode>
+		<debug>on</debug>
+		<tracking>off</tracking>
+		<resume>on</resume>
+		<fullscreen>on</fullscreen>
+		<intro>on</intro>
+	</settings>
+
+	<external>
+		<server><![CDATA[http://127.0.0.1:4000/]]></server>
+		<playlist><![CDATA[demos/auditorium/playlist/]]></playlist>
+		<level><![CDATA[demos/auditorium/level/]]></level>
+		<editor_level><![CDATA[demos/auditorium/editor_level/]]></editor_level>
+		<solution>
+			<save><![CDATA[demos/auditorium/solution/]]></save>
+			<image><![CDATA[demos/auditorium/solution_img/]]></image>
+			<xml><![CDATA[demos/auditorium/solution_xml/]]></xml>
+		</solution>
+		<tracking>
+			<createGame><![CDATA[demos/auditorium/create_game/]]></createGame>
+			<updateGame><![CDATA[demos/auditorium/update_game/]]></updateGame>
+			<updateGameTime><![CDATA[demos/auditorium/update_game_time/]]></updateGameTime>
+		</tracking>
+		<iphone><![CDATA[http://127.0.0.1:4000/games/auditorium/]]></iphone>
+	</external>
+
+	<constants>
+		<audio>
+			<fadeOutTime>2</fadeOutTime>
+		</audio>
+		<flow>
+			<containerFullThreshold>.91</containerFullThreshold>
+			<controlPreviewTime>1500</controlPreviewTime>
+			<controlRadius>50</controlRadius>
+			<controlSpacing>10</controlSpacing>
+			<maxParticles>100</maxParticles>
+		</flow>
+		<item>
+			<fadeInTime>1</fadeInTime>
+			<fadeOutTime>1</fadeOutTime>
+		</item>
+	</constants>
+
+</data>

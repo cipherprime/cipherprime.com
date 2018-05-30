@@ -1,0 +1,68 @@
+<data>
+  <streams>
+    <stream>
+      <position>294, 34</position>
+      <vector>13.375, 16.5</vector>
+      <noise>30</noise>
+      <color>1</color>
+      <totalParticles>50</totalParticles>
+    </stream>
+    <stream>
+      <position>74, 282</position>
+      <vector>23.675, -8.075</vector>
+      <noise>30</noise>
+      <color>0</color>
+      <totalParticles>50</totalParticles>
+    </stream>
+  </streams>
+  <warps>
+    <warp type="ColorModifier">
+      <position>496, 333</position>
+      <radius>73.60550379390811</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>2</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>224, 139</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>2</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>338, 343</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>1</color>
+      <color>2</color>
+    </warp>
+    <warp type="ContainerModifier">
+      <position>563, 181</position>
+      <radius>40</radius>
+      <strength>4</strength>
+      <mode>omni</mode>
+      <color>0</color>
+    </warp>
+    <warp type="FallModifier">
+      <position>469, 72</position>
+      <radius>70.2743534966608</radius>
+      <strength>-4</strength>
+      <mode>linear</mode>
+      <color>0</color>
+    </warp>
+    <warp type="AttractModifier">
+      <position>358, 275</position>
+      <radius>128</radius>
+      <strength>4</strength>
+      <mode>spherical</mode>
+    </warp>
+    <warp type="RabbitModifier">
+      <position>311, 291</position>
+      <radius>50</radius>
+      <strength>1.2</strength>
+      <mode>linear</mode>
+    </warp>
+  </warps>
+</data>
