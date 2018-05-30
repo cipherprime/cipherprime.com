@@ -7,8 +7,10 @@
 			<h2 class="col-xs-12">{{ title | default: "Also Available:"}}</h2>
 			<ul>
 				{% for game in site.data.available %}
+
 				{% assign link = "/games/" | append: game.name | append: include.url | downcase %}
-				{% if current == link %}
+				{% assign slug = game.name | downcase %}
+				{% if current contains slug %}
 					{% assign class = "current" %}
 				{% else %}
 					{% assign class = "" %}
@@ -16,7 +18,7 @@
 
 					<li class="col-xs-4 col-md-2 {{ game.name | downcase }} {{ class }}">
 						<a href="{{ link }}"><span>
-							{{ current }}<br/>
+							{{ game.name }}<br/>
 
 							{% for platform in game.platforms %}
 								<i class="fa fa-{{ platform }}"></i>

@@ -9,6 +9,7 @@ layout: default
     <div class="top" data-appear="<?=$this->fetch('appear')?>">
     <div class="maintitle">
             <h1>{{ page.title }}</h1>
+            <h2 class="promo">{{ page.promo }}</h2>
         	<h2>{{ page.subtitle }}</h2>
     {% if page.trailer-cta %}
         	<div class="dockable" >
@@ -83,6 +84,7 @@ layout: default
 
     {% endif %}
 
+    {{ page.end }}
 
     {% if page.humble %}
 
