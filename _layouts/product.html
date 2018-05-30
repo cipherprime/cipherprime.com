@@ -1,0 +1,99 @@
+---
+layout: default
+---
+
+
+
+<div class="origin">
+
+	<div class="top" data-appear="<?=$this->fetch('appear')?>">
+		<div class="maintitle">
+            <h1>{{ page.title }}</h1>
+        	<h2>{{ page.subtitle }}</h2>
+        	<div class="dockable" >
+        		<a href="//youtube.com/embed/{{ page.trailer-id }}" class="button" rel='trailer'>{{ page.trailer-cta }}</a>
+        	</div>
+		</div>
+
+		<div id="player"></div>
+
+
+		<div class="shadow"></div>
+	</div>
+</div>
+
+
+
+<div class="bottom">
+
+
+	<section class="maincontent">
+		<div class="container">
+			<div class="row">
+
+				<aside class="sidebar col-md-4">
+
+					{{ page.sidebar }}
+
+				</aside>
+
+				<article class="main col-md-8">
+					{{ content }}
+				</article>
+			</div>
+		</div>
+	</section>
+
+	{{ page.additional }}
+
+	<div class="divider"></div>
+
+	<section class="testimonials">
+		<div class="container">
+
+			<div class="row testimonial">
+
+				<div class="col-sm-12">
+
+					{{ page.testimonials }}
+
+				</div>
+			</div>
+
+		</div>
+
+	</section>
+
+	{% if page.awards %}
+
+	<div class="divider"></div>
+
+	<section id="awards">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					{{ page.awards }}
+				</div>
+			</div>
+		</div>
+	</section>
+
+	{% endif %}
+
+
+
+	<? $humble = $this->fetch("humble");
+	  if( $humble != null ): ?>
+
+	<?=$this->element("buy_block", array(
+		"lead" => $this->fetch("lead"),
+		"title" => $this->fetch("buytitle"),
+		"humble" => $humble
+	))?>
+
+	<? endif ?>
+
+	<?=$this->element('available', array('title' => 'More Games:'))?>
+
+
+</div>
