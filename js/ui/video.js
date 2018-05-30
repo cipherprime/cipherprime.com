@@ -1,6 +1,8 @@
 var player;
 var wasLight;
 
+var trailer;
+
 var playerVars = {
 	'origin' : 'staging.cipherprime.com',
 	'modestbranding' : 1,
@@ -11,7 +13,7 @@ var playerVars = {
 }
 
 $(document).ready(function(){
-	
+
 	$("[data-youtube]").each(function(){
 		id = $(this).attr("data-youtube");
 		$(this).append('<i class="fa fa-youtube-play"></i>');
@@ -22,7 +24,7 @@ $(document).ready(function(){
 			    width: $(this).width(),
 			    videoId: id,
 			    playerVars: playerVars,
-			    
+
 			    events: {
 				    'onReady' : function()
 				    {
@@ -32,50 +34,55 @@ $(document).ready(function(){
 			});
 		});
 	})
-	
+
 });
 
 
 function onYouTubeIframeAPIReady() {
-	if( isMobile.any ) return false;
-	
- 	$("a[rel='trailer']").click(function(){
-		$(".maintitle").fadeOut("fast");
-		
 
-		if( player == null )
+	if( isMobile.any ) return false;
+
+
+ 	$("a[rel='trailer']").click(function(){
+
+		$(".maintitle").fadeOut("fast");
+
+		if( trailer == null )
 		{
 			wasLight = $("body").hasClass("light");
 			$("body").addClass("light");
-		
+
 			href = $(this).attr("href");
 			href = href.substring( href.lastIndexOf("/") + 1 );
-			player = new YT.Player('player', {
+			trailer = new YT.Player('player', {
 			    height: '100%',
 			    width: '100%',
 			    videoId: href,
 			    playerVars: playerVars,
-			    
+
 			    events: {
 				    'onReady' : function()
 				    {
-				    	player.playVideo();
+				    	trailer.playVideo();
 				    },
 				    'onStateChange': onPlayerStateChange
 			    }
 			});
 		} else {
-			player.playVideo();
+			console.log( trailer );
+			trailer.playVideo();
+
 		}
-		
+
 		window.scrollTo(0,0);
+
 		return false;
 	});
 }
- 
+
 function onPlayerStateChange()
 {
-	if( player.getPlayerState() == 0 )
+	if( trailer.getPlayerState() == 0 )
 	{
 		$("#player").replaceWith("<div id='player'></div>");
 		$(".maintitle").fadeIn("fast");
@@ -83,7 +90,7 @@ function onPlayerStateChange()
 		{
 			$("body").removeClass("light");
 		}
-		
+
 		player = null;
 	}
 }
