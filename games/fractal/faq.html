@@ -1,0 +1,51 @@
+---
+layout: default
+title:  Fractal FAQ
+css: games/fractal.css
+theme: docked static snapButton
+---
+
+<div class="origin">
+	<div class="top" data-appear="white">
+		<div class="maintitle">
+			<h1>Fractal Guide</h1>
+			<div class="dockable">
+				<a href="/games/fractal" class="button">Back To Fractal</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class= "bottom">
+	<section>
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-sm-3 hidden-xs">
+					<img src="/img/fractal/guide/blooms_not_war.png" class="dynamic"/>
+				</div>
+
+				<div class="col-sm-9">
+
+
+					<h3>Is the iPad version the same as the PC and Mac versions?</h3>
+					<p>When we ported Fractal to the Unity 3D development platform we made Fractal a better game in many ways: we improved its gameplay, its visuals, and  its audio. We then released the updated version of Fractal on the Cipher Prime Store, followed by the Mac App Store (Mac) and Steam (Mac/PC) releases. However, the iPad version is still the older version of Fractal. Updating that app to reflect the most recent changes is on our to-do list. If you are very interested in us pushing forward with the update, don&rsquo;t hesitate to let us know!</p>
+
+					<h3>Fractal crashes after selecting a resolution on Windows. What do I do?</h3>
+
+					<p>Don&rsquo;t fret! Some people have noted that the Steam build of Fractal crashes after the resolution screen on certain Windows machines. This can be fixed if you <a href="http://www.microsoft.com/download/en/details.aspx?id=5555">download and install the Microsoft Visual C++ 2010 Redistributable Package (x86)</a>. Once that is installed, you should be good to go!</p>
+
+					<h3>How do I find the standalone version&rsquo;s save game information on the PC?</h3>
+					<p>This is something of a convoluted solution, simply because of the way our development tool saves game data. Only attempt the following if you are familiar with editing the Windows registry and are prepared to accept the risks and the responsibility for any potential consequences in doing so.</p>
+					<ol>
+						<li>Run &ldquo;regedit&rdquo; to open the registry editor. (You can type &ldquo;regedit&rdquo; into the Start button&rsquo;s search function.)</li>
+						<li>Navigate through the file structure on the left hand side to Computer\HKEY_CURRENT_USER\Software\Cipher Prime Studios, Inc.\Fractal. </li>
+						<li>Inside of that folder a bunch of values will pop up on the right side, and that represents your save data for how far you&rsquo;ve gotten in campaign mode, puzzle completion, arcade scores, etc.</li>
+						<li>To transfer or back up save information, you can right click on the Fractal folder and export the information into a .reg file, and if you wanted to, say, transfer your save info from on computer to another, you could transfer the .reg file to the second computer and drag and drop that into the Fractal registry entry. Note: it will automatically overwrite whatever was in there without prompting.</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>

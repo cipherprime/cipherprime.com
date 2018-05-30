@@ -84,19 +84,12 @@ layout: default
     {% endif %}
 
 
+    {% if page.humble %}
 
-    <? $humble = $this->fetch("humble");
-      if( $humble != null ): ?>
+    {% include buy_block.html %}
 
-    <?=$this->element("buy_block", array(
-    "lead" => $this->fetch("lead"),
-    "title" => $this->fetch("buytitle"),
-    "humble" => $humble
-    ))?>
+    {% endif %}
 
-    <? endif ?>
-
-    <?=$this->element('available', array('title' => 'More Games:'))?>
-
+    {% include available.html title="More Games" %}
 
 </div>

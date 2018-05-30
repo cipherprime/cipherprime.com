@@ -1,0 +1,32 @@
+
+{% assign current = page.url|remove:'.html' %}
+
+<section id="available">
+	<div class="container">
+		<div class="row">
+			<h2 class="col-xs-12">{{ title | default: "Also Available:"}}</h2>
+			<ul>
+				{% for game in site.data.available %}
+				{% assign link = "/games/" | append: game.name | append: include.url | downcase %}
+				{% if current == link %}
+					{% assign class = "current" %}
+				{% else %}
+					{% assign class = "" %}
+				{% endif %}
+
+					<li class="col-xs-4 col-md-2 {{ game.name | downcase }} {{ class }}">
+						<a href="{{ link }}"><span>
+							{{ current }}<br/>
+
+							{% for platform in game.platforms %}
+								<i class="fa fa-{{ platform }}"></i>
+							{% endfor %}
+						</span></a>
+					</li>
+
+				{% endfor %}
+
+			</ul>
+		</div>
+	</div>
+</section>

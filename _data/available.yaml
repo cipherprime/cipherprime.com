@@ -1,0 +1,18 @@
+---
+ - name: Auditorium
+   platforms: ['windows', 'apple', 'gamepad']
+
+ - name: Fractal
+   platforms: ['windows', 'apple', 'linux', 'tablet', 'android']
+
+ - name: Pulse
+   platforms: ['table', 'android' ]
+
+ - name: Splice
+   platforms: ['gamepad', 'windows', 'apple', 'linux']
+
+ - name: Shimsham
+   platforms: ['windows', 'apple']
+
+ - name: Intake
+   platforms: ['windows', 'apple', 'tablet']

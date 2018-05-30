@@ -2,16 +2,23 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-5 col-lg-6">
-				<h1><?=(isset($title) ? $title : "Best Deal!")?></h1>
+				{% if page.buytitle %}
+					<h1>{{ page.buytitle }}</h1>
+				{% else %}
+					<h1>Best Deal!</h1>
+				{% endif %}
 				<p class="lead">
-					<?=$lead?>
+					{{ page.lead }}
 				</p>
 			</div>
 
 			<div class="col-md-7 col-lg-6">
-				<div class="hidden-xs "><?=$this->element('humble', array('url' => $humble ));?></div>
+				<div class="hidden-xs ">
+					{% include humble.html %}
+				</div>
+
 				<div class="visible-xs-block">
-					<a href="<?=$humble?>" class="purchase humble"><span>Buy it on Humble</span></a>
+					<a href="{{ page.humble }}" class="purchase humble"><span>Buy it on Humble</span></a>
 				</div>
 			</div>
 		</div>

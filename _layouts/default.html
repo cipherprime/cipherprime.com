@@ -44,7 +44,10 @@
     <link rel="stylesheet" href="/css/fonts.css">
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/css/global.css">
-    <link rel="stylesheet" href="/css/{{ page.css }}">
+
+	{% for css in page.css %}
+    <link rel="stylesheet" href="/css/{{ css }}.css">
+	{% endfor %}
 
 
 </head>
@@ -92,6 +95,9 @@
     <script type="text/javascript" src="/js/lightbox.js"></script>
     <script type="text/javascript" src="/js/global.js"></script>
 
+	{% for script in page.script %}
+    <script type="text/javascript" src="/js/{{ script }}.js "></script>
+	{% endfor %}
 
 </body>
 </html>
