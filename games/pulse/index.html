@@ -130,11 +130,9 @@ end: |
 <h2>Reach out and <strong>Touch the Music</strong></h2>
 <p>Enter an absorbing world where players become part conductor, part note-captor, part multi-touch master. Tap speeding notes as they cross the radiant pulse to conduct gorgeous original melodies.</p>
 
-
 <hr/>
 
-<?=$this->Theme->youtube("video1", "CFF3bJLb8Sg", "width: 100%; height: 315px")?>
-
+{% include youtube.html id="video1" video="CFF3bJLb8Sg" style="width: 100%; height: 315px" %}
 
 <ul id="screenshots" class="screenshots row">
     <li class="col-xs-6">{% include screenshot.html game="pulse" image="pulse1" %}</li>
