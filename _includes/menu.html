@@ -1,8 +1,17 @@
 
+{% assign current = page.url|remove:'.html' %}
+{% assign current = page.url|remove:'.html' %}
+
 <div class="content">
 
 	<ul>
-		<!-- <li <?=($this->here == "/" ? "class='current'" : "")?> ><a href="/" >Home</a> <a href="#" class="toggle">&nbsp;</a></li> -->
+		{% if page.url == "/" %}
+			{% assign class = 'class="current"' %}
+		{% else %}
+			{% assign class = "" %}
+		{% endif %}
+
+		<li {{ class }} ><a href="/" >Home</a> <a href="#" class="toggle">&nbsp;</a></li>
 	</ul>
 
 
@@ -10,7 +19,8 @@
     <h3>{{ menu.name }}</h3>
     <ul>
         {% for item in menu.items %}
-        <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+		{% include menu_item.html url=item.url content=item.name %}
+        <!-- <li><a href="{{ item.url }}">{{ item.name }}</a></li> -->
         {% endfor %}
     </ul>
     {% endfor %}
@@ -27,9 +37,9 @@
 	<ul>
 		<li><a href="//blog.cipherprime.com">Blog</a> <span class="offsite"></span></li>
 		<li><a href="//music.cipherprime.com">Music</a> <span class="offsite"></span></li>
-		<li><a href="/support">Support</a></li>
-		<li><a href="/about">About</a></li>
-		<li><a href="/mailinglist">Mailing List</a></li>
+		{% include menu_item.html url="/support" content="Support" %}
+		{% include menu_item.html url="/about" content="About" %}
+		{% include menu_item.html url="/mailinglist" content="Mailing List" %}
 
 	</ul>
 

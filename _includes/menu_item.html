@@ -1,0 +1,11 @@
+{% assign url = {{page.url|remove:'.html'}} %}
+{% assign match = {{include.match|default: include.url}} %}
+
+{% if url contains match %}
+	{% assign class = 'class="current"' %}
+{% else %}
+	{% assign class = "" %}
+{% endif %}
+
+
+<li {{ class }}><a href="{{ include.url }}">{{ include.content }}</a></li>
