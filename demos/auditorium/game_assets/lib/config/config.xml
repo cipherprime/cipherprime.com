@@ -10,7 +10,7 @@
 	</settings>
 
 	<external>
-		<server><![CDATA[http://127.0.0.1:4000/]]></server>
+		<server><![CDATA[http://cipherprime.com/]]></server>
 		<playlist><![CDATA[demos/auditorium/playlist/]]></playlist>
 		<level><![CDATA[demos/auditorium/level/]]></level>
 		<editor_level><![CDATA[demos/auditorium/editor_level/]]></editor_level>
@@ -24,7 +24,7 @@
 			<updateGame><![CDATA[demos/auditorium/update_game/]]></updateGame>
 			<updateGameTime><![CDATA[demos/auditorium/update_game_time/]]></updateGameTime>
 		</tracking>
-		<iphone><![CDATA[http://127.0.0.1:4000/games/auditorium/]]></iphone>
+		<iphone><![CDATA[http://cipherprime.com/games/auditorium/]]></iphone>
 	</external>
 
 	<constants>
