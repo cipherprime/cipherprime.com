@@ -1,0 +1,26 @@
+body {
+  background-image: url("/img/lineweight/lineweight-bkg.jpg");
+}
+.top {
+  background: url('/img/lineweight/lineweight-splash.jpg') center center no-repeat;
+  background-size: cover;
+}
+.actions li:nth-child(5) a:hover {
+  background-color: #f850a3;
+}
+.actions li:nth-child(4) a:hover {
+  background-color: #cb4587;
+}
+.actions li:nth-child(3) a:hover {
+  background-color: #9f3a6c;
+}
+.actions li:nth-child(2) a:hover {
+  background-color: #722f50;
+}
+.actions li:nth-child(1) a:hover {
+  background-color: #462435;
+}
+
+#features li {
+  margin-bottom: 30px;
+}

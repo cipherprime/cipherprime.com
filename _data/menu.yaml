@@ -15,19 +15,19 @@
        url: /games/intake
      - name: Duet
        url: /games/duet
-     - name: Tailwind<span class="tag new">new</span>
+     - name: Tailwind
        url: /games/tailwind
      - name: Jawns<span class="tag new">new</span>
        url: http://playjawns.com
 
 - name: Minis
   items:
-     - name: "#Headlight<span class='tag new'>new</span>"
+     - name: "#Headlight"
        url: http://cipherprime.itch.io/headlight
      - name: Monster Want Burger!
        url: http://monsterwantburger.com
 
 - name: Exhibitions
   items:
-     - name: We've Traveled So Far...<span class="tag new">new</span>
+     - name: We've Traveled So Far...
        url: http://wevetraveledsofar.com
