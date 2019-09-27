@@ -10,6 +10,28 @@
 	</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui, user-scalable=no">
+
+	{% if page.preview %}
+	{% assign preview = page.preview %}
+	{% else %}
+	{% assign preview = "/img/static/preview.png" %}
+	{% endif %}
+
+	{% if page.description %}
+	{% assign description = page.description %}
+	{% else %}
+	{% assign description = page.subtitle %}
+	{% endif %}
+
+	<meta name="og:image" content="{{ preview }}">
+	<meta name="og:title" content="{{ page.title }}">
+	<meta name="og:description" content="{{ description }}">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="{{ page.title }}">
+	<meta name="twitter:description" content="{{ description }}">
+	<meta name="twitter:image" content="{{ preview }}">
+
 	<!-- <?php
 		echo $this->Html->meta('icon');
 

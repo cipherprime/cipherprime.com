@@ -17,8 +17,10 @@
        url: /games/duet
      - name: Tailwind
        url: /games/tailwind
-     - name: Jawns<span class="tag new">new</span>
+     - name: Jawns
        url: http://playjawns.com
+     - name: Lineweight<span class="tag new">new</span>
+       url: /games/lineweight
 
 - name: Minis
   items:
