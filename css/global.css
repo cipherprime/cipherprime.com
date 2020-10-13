@@ -170,7 +170,7 @@ h3 {
 
 .bottom .sidebar .actions .primary a {
   font-family: "BrandonText-Bold";
-  border: 1px solid black;
+  border: 1px solid #DDDDDD;
   padding: 4px 10px;
   margin-top: -4px;
   margin-left: -10px;
