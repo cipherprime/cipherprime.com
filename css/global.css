@@ -153,6 +153,7 @@ h3 {
   min-width: auto;
   transition: min-width .25s, background-color .2s, color .2s, transform .2s;
   border: none;
+  width: 100%;
 }
 .bottom .sidebar .actions li {
   margin: 0px;
@@ -160,8 +161,20 @@ h3 {
   font-size: 1.8em;
   line-height: 1.5em;
 }
+
+.bottom .sidebar .actions .primary a{
+
+
+}
+
+
 .bottom .sidebar .actions .primary a {
   font-family: "BrandonText-Bold";
+  border: 1px solid black;
+  padding: 4px 10px;
+  margin-top: -4px;
+  margin-left: -10px;
+  border-radius: 5px;
 }
 .bottom .sidebar .actions .promo {
   font-size: 2em;

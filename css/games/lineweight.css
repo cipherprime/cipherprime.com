@@ -7,19 +7,19 @@ body {
   background-size: cover;
 }
 .actions li:nth-child(5) a:hover {
-  background-color: #f850a3;
+  background-color: #2D9B70;
 }
 .actions li:nth-child(4) a:hover {
-  background-color: #cb4587;
+  background-color: #2D9B70;
 }
 .actions li:nth-child(3) a:hover {
-  background-color: #9f3a6c;
+  background-color: #2D9B70;
 }
 .actions li:nth-child(2) a:hover {
-  background-color: #722f50;
+  background-color: #2D9B70;
 }
 .actions li:nth-child(1) a:hover {
-  background-color: #462435;
+  background-color: #2D9B70;
 }
 
 #features li {
