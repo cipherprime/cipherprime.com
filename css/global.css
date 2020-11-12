@@ -172,8 +172,8 @@ h3 {
   font-family: "BrandonText-Bold";
   border: 1px solid #DDDDDD;
   padding: 4px 10px;
-  margin: -4px -10px;
-  margin-bottom: 0px;
+  margin: 0px -10px;
+  margin-bottom: 4px;
   border-radius: 5px;
 }
 .bottom .sidebar .actions .promo {
@@ -182,12 +182,20 @@ h3 {
 .bottom .sidebar .actions .promo a {
   font-family: "BrandonText-Bold";
 }
+
 .bottom .sidebar .actions a:hover {
   padding: 0px 10px;
   margin-left: -10px;
   text-decoration: none;
   min-width: 100%;
 }
+
+.bottom .sidebar .actions .primary a:hover {
+  padding: 4px 10px;
+  margin: 0px -10px;
+  margin-bottom: 4px;
+}
+
 .bottom a {
   border-bottom: 1px solid #DDD;
   transition: border-bottom .2s;
@@ -1136,4 +1144,24 @@ dd {
   color: #FFF;
   border: none;
   font-family: "BrandonText-Light";
+}
+
+
+.store-badges
+{
+  text-align: center;
+  text-decoration: none;
+}
+
+.store-badge
+{
+  border: none !important;
+  text-decoration: none !important;
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.store-badge img
+{
+  max-height: 70px;
 }
